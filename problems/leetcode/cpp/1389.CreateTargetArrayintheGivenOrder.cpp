@@ -2,14 +2,15 @@
 #include <vector>
 
 using namespace std;
-int main()
+class Solution
 {
-  vector<int> nums = {0, 1, 2, 3, 4};
-  vector<int> index = {0, 1, 2, 2, 1};
-  vector<int> r;
-
-  for (int i = 0; i < nums.size(); i++)
+public:
+  vector<int> createTargetArray(vector<int> &nums, vector<int> &index)
   {
-    r.insert(r.begin() + index[i], nums[i]);
+    vector<int> r;
+    for (int i = 0; i < nums.size(); i++)
+    {
+      r.insert(r.begin() + index[i], nums[i]);
+    }
   }
-}
+};
