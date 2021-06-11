@@ -19,7 +19,7 @@ public:
     int i = 1;
 
     ListNode *first = head;
-    while (first != NULL && first->next != NULL)
+    while (first != nullptr && first->next != nullptr)
     {
       first = first->next;
       i++;
