@@ -10,3 +10,4 @@
 
 1. [Linear search](https://github.com/AhmadulinJs/Algo-DS/blob/main/examples/algorithms/searching/LinearSearch/solution.cpp).
 2. [Jump search](https://github.com/AhmadulinJs/Algo-DS/blob/main/examples/algorithms/searching/JumpSearch/solution.cpp).
+3. [Binary Search](https://github.com/AhmadulinJs/Algo-DS/tree/main/examples/algorithms/searching/BinarySearch)
